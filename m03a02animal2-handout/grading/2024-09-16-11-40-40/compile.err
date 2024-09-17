@@ -1,0 +1,6 @@
+Animal.java:15: error: cannot find symbol
+        } else if (answer.toLowerCase().equals("no")) {
+                   ^
+  symbol:   variable answer
+  location: class Animal
+1 error
