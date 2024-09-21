@@ -1,0 +1,21 @@
+Quadratic.java:15: error: cannot find symbol
+        if (d >= 1) {System.out.println(solve + " " + solve1);}
+                                        ^
+  symbol:   variable solve
+  location: class Quadratic
+Quadratic.java:15: error: cannot find symbol
+        if (d >= 1) {System.out.println(solve + " " + solve1);}
+                                                      ^
+  symbol:   variable solve1
+  location: class Quadratic
+Quadratic.java:16: error: cannot find symbol
+        else if (d == 0) {System.out.println(solve + " " + solve1);}
+                                             ^
+  symbol:   variable solve
+  location: class Quadratic
+Quadratic.java:16: error: cannot find symbol
+        else if (d == 0) {System.out.println(solve + " " + solve1);}
+                                                           ^
+  symbol:   variable solve1
+  location: class Quadratic
+4 errors

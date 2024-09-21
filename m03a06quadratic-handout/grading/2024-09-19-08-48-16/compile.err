@@ -1,0 +1,4 @@
+Quadratic.java:17: error: bad operand type double for unary operator '!'
+        if (a == 0 &! b == 0) {System.out.println("1.0");}
+                    ^
+1 error
