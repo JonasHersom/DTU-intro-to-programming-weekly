@@ -1,0 +1,4 @@
+SumMean.java:20: error: incompatible types: int cannot be converted to boolean
+        if (input /= 0) {
+                  ^
+1 error

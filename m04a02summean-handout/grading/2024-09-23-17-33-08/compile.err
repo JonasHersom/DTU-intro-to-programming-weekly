@@ -1,0 +1,6 @@
+SumMean.java:20: error: cannot find symbol
+        if (n /= 0) {
+            ^
+  symbol:   variable n
+  location: class SumMean
+1 error
