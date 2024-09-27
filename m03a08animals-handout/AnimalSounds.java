@@ -16,5 +16,6 @@ class AnimalSounds {
                 default -> System.out.println("?");
             }
     }
+    scanner.close();
 }
 }
