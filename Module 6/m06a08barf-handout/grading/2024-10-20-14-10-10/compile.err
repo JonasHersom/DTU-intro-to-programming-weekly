@@ -1,0 +1,11 @@
+Test02.java:7: error: incompatible types: int cannot be converted to String
+        var bag1 = new BarfBag(1, "SAS", 2023, 25);
+                               ^
+Test02.java:8: error: incompatible types: int cannot be converted to String
+        var bag2 = new BarfBag(13, "Alitalia", 1991, 2300.10);
+                               ^
+Test02.java:9: error: incompatible types: int cannot be converted to String
+        var bag3 = new BarfBag(42, "Air France", 2010, 450.0);
+                               ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+3 errors

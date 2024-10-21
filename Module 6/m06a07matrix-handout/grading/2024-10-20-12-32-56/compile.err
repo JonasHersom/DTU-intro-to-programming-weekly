@@ -1,0 +1,6 @@
+Test06.java:16: error: cannot find symbol
+        var c = Matrix.mult(a, b);
+                ^
+  symbol:   variable Matrix
+  location: class Test06
+1 error
