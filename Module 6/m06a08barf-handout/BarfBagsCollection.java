@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 class BarfBagsCollection {
     public static void main(String args[]) {
         var scanner = new java.util.Scanner(System.in);

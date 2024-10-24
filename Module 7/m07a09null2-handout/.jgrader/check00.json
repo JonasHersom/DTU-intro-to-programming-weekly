@@ -1,0 +1,5 @@
+{
+    "name": "Compilation of NullFinder.java",
+    "compileArgs": ["NullFinder.java"],
+    "ifFailedSkipRest": true
+}

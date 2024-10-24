@@ -1,0 +1,5 @@
+Test11.java:17: error: incompatible types: int[][] cannot be converted to int[]
+        System.out.println(ArrayUtils.areEqual(arr1, arr2) ? "Yes" : "No");
+                                               ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error

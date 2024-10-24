@@ -1,0 +1,38 @@
+(1) Looking for the best character among:
+    - Guybrush Threepwood (speed = 9, strength = 8)
+    - Lara Croft (speed = 17, strength = 13)
+    - Princess Peach (speed = 12, strength = 9)
+Best character: Lara Croft (speed = 17, strength = 13)
+
+(2) Looking for the best character among:
+    - Princess Peach (speed = 12, strength = 9)
+    - Guybrush Threepwood (speed = 9, strength = 8)
+Best character: Princess Peach (speed = 12, strength = 9)
+
+(3) Looking for the best character among:
+    - Link (speed = 15, strength = 15)
+Best character: Link (speed = 15, strength = 15)
+
+(4) Looking for the best character among:
+    <empty array>
+The array is empty!
+
+(5) Looking for the best character among:
+    - Link (speed = 15, strength = 15)
+    - Lara Croft (speed = 17, strength = 13)
+There is no best character in the array!
+
+(6) Looking for the best character among:
+    - Princess Peach (speed = 12, strength = 9)
+    - Link (speed = 15, strength = 15)
+    - Guybrush Threepwood (speed = 9, strength = 8)
+    - Lara Croft (speed = 17, strength = 13)
+There is no best character in the array!
+
+(7) Looking for the best character among:
+    - Link (speed = 15, strength = 15)
+    - Lara Croft (speed = 17, strength = 13)
+    - Doomguy (speed = 90, strength = 90)
+    - Guybrush Threepwood (speed = 9, strength = 8)
+    - Princess Peach (speed = 12, strength = 9)
+Best character: Doomguy (speed = 90, strength = 90)

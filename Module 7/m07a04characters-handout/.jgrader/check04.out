@@ -1,0 +1,100 @@
+Is Link (speed = 15, strength = 15) better than
+   Link (speed = 15, strength = 15)?
+   ==> false
+
+Is Link (speed = 15, strength = 15) better than
+   Lara Croft (speed = 17, strength = 13)?
+   ==> false
+
+Is Link (speed = 15, strength = 15) better than
+   Doomguy (speed = 90, strength = 90)?
+   ==> false
+
+Is Link (speed = 15, strength = 15) better than
+   Guybrush Threepwood (speed = 9, strength = 8)?
+   ==> true
+
+Is Link (speed = 15, strength = 15) better than
+   Princess Peach (speed = 12, strength = 9)?
+   ==> true
+
+Is Lara Croft (speed = 17, strength = 13) better than
+   Link (speed = 15, strength = 15)?
+   ==> false
+
+Is Lara Croft (speed = 17, strength = 13) better than
+   Lara Croft (speed = 17, strength = 13)?
+   ==> false
+
+Is Lara Croft (speed = 17, strength = 13) better than
+   Doomguy (speed = 90, strength = 90)?
+   ==> false
+
+Is Lara Croft (speed = 17, strength = 13) better than
+   Guybrush Threepwood (speed = 9, strength = 8)?
+   ==> true
+
+Is Lara Croft (speed = 17, strength = 13) better than
+   Princess Peach (speed = 12, strength = 9)?
+   ==> true
+
+Is Doomguy (speed = 90, strength = 90) better than
+   Link (speed = 15, strength = 15)?
+   ==> true
+
+Is Doomguy (speed = 90, strength = 90) better than
+   Lara Croft (speed = 17, strength = 13)?
+   ==> true
+
+Is Doomguy (speed = 90, strength = 90) better than
+   Doomguy (speed = 90, strength = 90)?
+   ==> false
+
+Is Doomguy (speed = 90, strength = 90) better than
+   Guybrush Threepwood (speed = 9, strength = 8)?
+   ==> true
+
+Is Doomguy (speed = 90, strength = 90) better than
+   Princess Peach (speed = 12, strength = 9)?
+   ==> true
+
+Is Guybrush Threepwood (speed = 9, strength = 8) better than
+   Link (speed = 15, strength = 15)?
+   ==> false
+
+Is Guybrush Threepwood (speed = 9, strength = 8) better than
+   Lara Croft (speed = 17, strength = 13)?
+   ==> false
+
+Is Guybrush Threepwood (speed = 9, strength = 8) better than
+   Doomguy (speed = 90, strength = 90)?
+   ==> false
+
+Is Guybrush Threepwood (speed = 9, strength = 8) better than
+   Guybrush Threepwood (speed = 9, strength = 8)?
+   ==> false
+
+Is Guybrush Threepwood (speed = 9, strength = 8) better than
+   Princess Peach (speed = 12, strength = 9)?
+   ==> false
+
+Is Princess Peach (speed = 12, strength = 9) better than
+   Link (speed = 15, strength = 15)?
+   ==> false
+
+Is Princess Peach (speed = 12, strength = 9) better than
+   Lara Croft (speed = 17, strength = 13)?
+   ==> false
+
+Is Princess Peach (speed = 12, strength = 9) better than
+   Doomguy (speed = 90, strength = 90)?
+   ==> false
+
+Is Princess Peach (speed = 12, strength = 9) better than
+   Guybrush Threepwood (speed = 9, strength = 8)?
+   ==> true
+
+Is Princess Peach (speed = 12, strength = 9) better than
+   Princess Peach (speed = 12, strength = 9)?
+   ==> false
+

@@ -1,0 +1,19 @@
+CowSay.java:23: error: cannot find symbol
+            if (i == splitInput.length - 2) {
+                ^
+  symbol:   variable i
+  location: class CowSay
+CowSay.java:24: error: cannot find symbol
+                amountOfCharecters += splitInput[i].length() + 1;
+                                                 ^
+  symbol:   variable i
+  location: class CowSay
+CowSay.java:25: error: cannot find symbol
+                message += splitInput[i + 1] + " ";
+                                      ^
+  symbol:   variable i
+  location: class CowSay
+CowSay.java:30: error: break outside switch or loop
+                break;
+                ^
+4 errors
