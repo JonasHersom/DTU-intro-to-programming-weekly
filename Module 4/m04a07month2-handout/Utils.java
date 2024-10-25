@@ -26,9 +26,6 @@ class Utils {
     }
     public static int daysInMonth (int monthNumber, int year) {
         int days = 0;
-
-
-
         switch (monthNumber) {
             case 1: days = 31; break;
             case 2:
