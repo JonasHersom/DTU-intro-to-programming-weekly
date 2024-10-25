@@ -22,7 +22,6 @@ class ArrayUtils {
             }
         }
         return true;
-
     }
 
 }

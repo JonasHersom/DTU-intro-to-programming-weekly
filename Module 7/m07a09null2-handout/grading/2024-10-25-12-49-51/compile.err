@@ -1,0 +1,7 @@
+NullFinder.java:36: error: missing return statement
+    }
+    ^
+NullFinder.java:40: error: missing return statement
+    }
+    ^
+2 errors

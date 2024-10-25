@@ -1,0 +1,5 @@
+Test07.java:6: error: incompatible types: int[][] cannot be converted to int[]
+        var arr2 = ArrayUtils.deepCopy(arr1);
+                                       ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error

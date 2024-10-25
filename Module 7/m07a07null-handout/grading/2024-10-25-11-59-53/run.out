@@ -1,0 +1,11 @@
+Testing: containsNull(String[][] arr)
+
+NullFinder.containsNull(null) returns: true
+NullFinder.containsNull(arr1) returns: false
+NullFinder.containsNull(arr2) returns: true
+NullFinder.containsNull(arr3) returns: false
+NullFinder.containsNull(arr4) returns: true
+NullFinder.containsNull(arr5) returns: true
+NullFinder.containsNull(arr6) returns: false
+NullFinder.containsNull(arr7) returns: true
+NullFinder.containsNull(arr8) returns: false

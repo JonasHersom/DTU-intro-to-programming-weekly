@@ -22,14 +22,28 @@ class Company {
 
 class NullFinder {
     static boolean containsNull(Employee[] arr) {
-        // Write your code here
+        if (arr == null) return true;
+        else {
+            for (int i = 0; i < arr.length; i++) {
+                if (arr[i] == null || arr[i].name == null) return true; 
+            }
+        }
+        return false;
     }
 
     static boolean containsNull(Company c) {
-        // Write your code here
+        if (c == null || c.name == null) return true;
+
+        if (containsNull(c.employees)) return true;
+        return false;
     }
 
     static boolean containsNull(Company[] arr) {
-        // Write your code here
+        if (arr == null) return true;
+        for (int i = 0; i < arr.length; i++) {
+            if (containsNull(arr[i])) return true;
+        }
+        return false;
+        
     }
 }
