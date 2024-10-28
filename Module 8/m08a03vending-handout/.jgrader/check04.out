@@ -1,0 +1,58 @@
+Trying to get coffee from all machines...
+  - Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0): false
+  - Machine @ Lyngby Station (coffee: 10; chocolate: 1; cash: 0): false
+  - Machine @ CPH Airport Gate A10 (coffee: 2; chocolate: 12; cash: 0): false
+
+Trying to get chocolate from all machines...
+  - Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0): false
+  - Machine @ Lyngby Station (coffee: 10; chocolate: 1; cash: 0): false
+  - Machine @ CPH Airport Gate A10 (coffee: 2; chocolate: 12; cash: 0): false
+
+Trying to get Wiener melange from all machines...
+  - Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0): false
+  - Machine @ Lyngby Station (coffee: 10; chocolate: 1; cash: 0): false
+  - Machine @ CPH Airport Gate A10 (coffee: 2; chocolate: 12; cash: 0): false
+
+Putting some cash in all machines...
+
+Trying to get coffee from all machines...
+  - Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 10): true
+    --> Machine @ DTU building 324 (coffee: 99; chocolate: 100; cash: 0)
+  - Machine @ Lyngby Station (coffee: 10; chocolate: 1; cash: 30): true
+    --> Machine @ Lyngby Station (coffee: 9; chocolate: 1; cash: 20)
+  - Machine @ CPH Airport Gate A10 (coffee: 2; chocolate: 12; cash: 50): true
+    --> Machine @ CPH Airport Gate A10 (coffee: 1; chocolate: 12; cash: 40)
+
+Trying to get chocolate from all machines...
+  - Machine @ DTU building 324 (coffee: 99; chocolate: 100; cash: 0): false
+  - Machine @ Lyngby Station (coffee: 9; chocolate: 1; cash: 20): true
+    --> Machine @ Lyngby Station (coffee: 9; chocolate: 0; cash: 0)
+  - Machine @ CPH Airport Gate A10 (coffee: 1; chocolate: 12; cash: 40): true
+    --> Machine @ CPH Airport Gate A10 (coffee: 1; chocolate: 11; cash: 20)
+
+Trying to get Wiener melange from all machines...
+  - Machine @ DTU building 324 (coffee: 99; chocolate: 100; cash: 0): false
+  - Machine @ Lyngby Station (coffee: 9; chocolate: 0; cash: 0): false
+  - Machine @ CPH Airport Gate A10 (coffee: 1; chocolate: 11; cash: 20): false
+
+Trying to get cash from all machines...
+  - Machine @ DTU building 324 (coffee: 99; chocolate: 100; cash: 0): 0
+  - Machine @ Lyngby Station (coffee: 9; chocolate: 0; cash: 0): 0
+  - Machine @ CPH Airport Gate A10 (coffee: 1; chocolate: 11; cash: 20): 20
+    --> Machine @ CPH Airport Gate A10 (coffee: 1; chocolate: 11; cash: 0)
+
+Trying to get coffee from all machines...
+  - Machine @ DTU building 324 (coffee: 99; chocolate: 100; cash: 0): false
+  - Machine @ Lyngby Station (coffee: 9; chocolate: 0; cash: 0): false
+  - Machine @ CPH Airport Gate A10 (coffee: 1; chocolate: 11; cash: 0): false
+
+Trying to get chocolate from all machines...
+  - Machine @ DTU building 324 (coffee: 99; chocolate: 100; cash: 0): false
+  - Machine @ Lyngby Station (coffee: 9; chocolate: 0; cash: 0): false
+  - Machine @ CPH Airport Gate A10 (coffee: 1; chocolate: 11; cash: 0): false
+
+Trying to get Wiener melange from all machines...
+  - Machine @ DTU building 324 (coffee: 99; chocolate: 100; cash: 0): false
+  - Machine @ Lyngby Station (coffee: 9; chocolate: 0; cash: 0): false
+  - Machine @ CPH Airport Gate A10 (coffee: 1; chocolate: 11; cash: 0): false
+

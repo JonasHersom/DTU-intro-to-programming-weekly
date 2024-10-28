@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Report for &ldquo;Vending machines - Test program Test01.java&rdquo;</title>
+    <style>
+      div#compilationArgs, div#compilationOutput, div#input, div#args, div#stderr {
+        background: lightgray;
+        font-family: "Lucida Console", "Courier New", monospace;
+        line-height: 70%;
+        white-space: pre;
+      }
+      div#errors {
+        background: lightcoral;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div#errors h2 {
+        margin-top: -0.5em;
+      }
+      div#args span.arg {
+        background-color: lightgray;
+      }
+      table#output, table#stderr {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      div#compilationOutput .noCompilationOutput:after, div#input .noinput:after, div#args .noargs:after, div#errors .noerrors:after, div#stderr .noerrors:after {
+        content: "(None)";
+        color: gray;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      table#output tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      table#stderr td {
+        background: lightgray;
+      }
+      table#stderr tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      div.hasStdErr {
+        background: yellow;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div.hasStdErr h2 {
+        margin-top: -0.5em;
+      }
+      th.lineno { color: lightgray; font-weight: normal; font-size: smaller;}
+      td.orig { background: lightgray; }
+      td.different { background: lightcoral; }
+      td.missing { background: lightcoral; }
+      td.missing:after {
+        content: "(Missing line in the program output)";
+        color: darkred;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      td.empty { background: none; }
+      td.equal { background: lightgreen; }
+      span.expected { background-color: gray; }
+      span.produced { background-color: red; }
+    </style>
+  </head>
+  <body>
+    <h1>Report for &ldquo;Vending machines - Test program Test01.java&rdquo;</h1>
+    <p>
+      <em>2024-10-28 19:50:18</em>
+    </p>
+
+    Overall result:
+    <strong style="background-color: lightgreen; padding: 0.25em;">PASSED</strong>
+    <h2>Arguments passed to javac for compiling</h2>
+    <div id="compilationArgs">
+      <span class="arg">Test01.java</span>
+    </div>
+
+    <h2>Compiler output (warnings and errors)</h2>
+    <div id="compilationOutput">
+      <span class="noCompilationOutput"></span>
+    </div>
+
+    <h2>Arguments passed to Java for running the program (main class name and command-line arguments)</h2>
+    <div id="args">
+      <span class="arg">Test01</span>
+    </div>
+
+    <h2>Program input</h2>
+    <div id="input">
+      <span class="noinput"></span>
+    </div>
+
+    <h2>Program output</h2>
+    <table id="output">
+      <caption>Expected output vs. actual program output</caption>
+      <thead>
+        <tr>
+          <td></td>
+          <th>Expected output</th>
+          <td></td>
+          <th>Program output</th>
+        </tr>
+      </thead>
+      <tbody>
+              <tr>
+                <th class="lineno">1</th><td class="orig">Trying to get coffee from all machines...</td>
+                <th class="lineno">1</th><td class="equal">Trying to get coffee from all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">2</th><td class="orig">  - Machine @ DTU building 324 (coffee: 1; chocolate: 1; cash: 0): false</td>
+                <th class="lineno">2</th><td class="equal">  - Machine @ DTU building 324 (coffee: 1; chocolate: 1; cash: 0): false</td>
+              </tr>
+              <tr>
+                <th class="lineno">3</th><td class="orig">  - Machine @ Lyngby Station (coffee: 33; chocolate: 12; cash: 0): false</td>
+                <th class="lineno">3</th><td class="equal">  - Machine @ Lyngby Station (coffee: 33; chocolate: 12; cash: 0): false</td>
+              </tr>
+              <tr>
+                <th class="lineno">4</th><td class="orig">  - Machine @ CPH Airport Gate A10 (coffee: 0; chocolate: 12; cash: 0): false</td>
+                <th class="lineno">4</th><td class="equal">  - Machine @ CPH Airport Gate A10 (coffee: 0; chocolate: 12; cash: 0): false</td>
+              </tr>
+              <tr>
+                <th class="lineno">5</th><td class="orig"></td>
+                <th class="lineno">5</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">6</th><td class="orig">Putting some cash in all machines...</td>
+                <th class="lineno">6</th><td class="equal">Putting some cash in all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">7</th><td class="orig"></td>
+                <th class="lineno">7</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">8</th><td class="orig">Trying to get coffee from all machines...</td>
+                <th class="lineno">8</th><td class="equal">Trying to get coffee from all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">9</th><td class="orig">  - Machine @ DTU building 324 (coffee: 1; chocolate: 1; cash: 30): true</td>
+                <th class="lineno">9</th><td class="equal">  - Machine @ DTU building 324 (coffee: 1; chocolate: 1; cash: 30): true</td>
+              </tr>
+              <tr>
+                <th class="lineno">10</th><td class="orig">    --&gt; Machine @ DTU building 324 (coffee: 0; chocolate: 1; cash: 20)</td>
+                <th class="lineno">10</th><td class="equal">    --&gt; Machine @ DTU building 324 (coffee: 0; chocolate: 1; cash: 20)</td>
+              </tr>
+              <tr>
+                <th class="lineno">11</th><td class="orig">  - Machine @ Lyngby Station (coffee: 33; chocolate: 12; cash: 5): false</td>
+                <th class="lineno">11</th><td class="equal">  - Machine @ Lyngby Station (coffee: 33; chocolate: 12; cash: 5): false</td>
+              </tr>
+              <tr>
+                <th class="lineno">12</th><td class="orig">  - Machine @ CPH Airport Gate A10 (coffee: 0; chocolate: 12; cash: 10): false</td>
+                <th class="lineno">12</th><td class="equal">  - Machine @ CPH Airport Gate A10 (coffee: 0; chocolate: 12; cash: 10): false</td>
+              </tr>
+              <tr>
+                <th class="lineno">13</th><td class="orig"></td>
+                <th class="lineno">13</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">14</th><td class="orig">Trying to get cash from all machines...</td>
+                <th class="lineno">14</th><td class="equal">Trying to get cash from all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">15</th><td class="orig">  - Machine @ DTU building 324 (coffee: 0; chocolate: 1; cash: 20): 20</td>
+                <th class="lineno">15</th><td class="equal">  - Machine @ DTU building 324 (coffee: 0; chocolate: 1; cash: 20): 20</td>
+              </tr>
+              <tr>
+                <th class="lineno">16</th><td class="orig">    --&gt; Machine @ DTU building 324 (coffee: 0; chocolate: 1; cash: 0)</td>
+                <th class="lineno">16</th><td class="equal">    --&gt; Machine @ DTU building 324 (coffee: 0; chocolate: 1; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">17</th><td class="orig">  - Machine @ Lyngby Station (coffee: 33; chocolate: 12; cash: 5): 5</td>
+                <th class="lineno">17</th><td class="equal">  - Machine @ Lyngby Station (coffee: 33; chocolate: 12; cash: 5): 5</td>
+              </tr>
+              <tr>
+                <th class="lineno">18</th><td class="orig">    --&gt; Machine @ Lyngby Station (coffee: 33; chocolate: 12; cash: 0)</td>
+                <th class="lineno">18</th><td class="equal">    --&gt; Machine @ Lyngby Station (coffee: 33; chocolate: 12; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">19</th><td class="orig">  - Machine @ CPH Airport Gate A10 (coffee: 0; chocolate: 12; cash: 10): 10</td>
+                <th class="lineno">19</th><td class="equal">  - Machine @ CPH Airport Gate A10 (coffee: 0; chocolate: 12; cash: 10): 10</td>
+              </tr>
+              <tr>
+                <th class="lineno">20</th><td class="orig">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 0; chocolate: 12; cash: 0)</td>
+                <th class="lineno">20</th><td class="equal">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 0; chocolate: 12; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">21</th><td class="orig"></td>
+                <th class="lineno">21</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">22</th><td class="orig">Trying to get coffee from all machines...</td>
+                <th class="lineno">22</th><td class="equal">Trying to get coffee from all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">23</th><td class="orig">  - Machine @ DTU building 324 (coffee: 0; chocolate: 1; cash: 0): false</td>
+                <th class="lineno">23</th><td class="equal">  - Machine @ DTU building 324 (coffee: 0; chocolate: 1; cash: 0): false</td>
+              </tr>
+              <tr>
+                <th class="lineno">24</th><td class="orig">  - Machine @ Lyngby Station (coffee: 33; chocolate: 12; cash: 0): false</td>
+                <th class="lineno">24</th><td class="equal">  - Machine @ Lyngby Station (coffee: 33; chocolate: 12; cash: 0): false</td>
+              </tr>
+              <tr>
+                <th class="lineno">25</th><td class="orig">  - Machine @ CPH Airport Gate A10 (coffee: 0; chocolate: 12; cash: 0): false</td>
+                <th class="lineno">25</th><td class="equal">  - Machine @ CPH Airport Gate A10 (coffee: 0; chocolate: 12; cash: 0): false</td>
+              </tr>
+              <tr>
+                <th class="lineno">26</th><td class="orig"></td>
+                <th class="lineno">26</th><td class="equal"></td>
+              </tr>
+
+      </tbody>
+    </table>
+
+    <div class="">
+      <h2>Warnings and error messages produced during the program execution</h2>
+
+      <div id="stderr">
+        <span class="noerrors"></span>
+      </div>
+    </div>
+  </body>
+</html>
