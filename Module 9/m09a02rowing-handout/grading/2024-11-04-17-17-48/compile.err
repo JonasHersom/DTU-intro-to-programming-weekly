@@ -1,0 +1,11 @@
+BoatTestUtils.java:14: error: cannot find symbol
+            if (BoatUtils.assignMember(boat, m)) {
+                         ^
+  symbol:   method assignMember(Member[],Member)
+  location: class BoatUtils
+BoatTestUtils.java:18: error: cannot find symbol
+                if (BoatUtils.isBoatFull(boat)) {
+                             ^
+  symbol:   method isBoatFull(Member[])
+  location: class BoatUtils
+2 errors

@@ -1,0 +1,5 @@
+{
+    "name": "Compilation of Pet.java",
+    "compileArgs": ["Pet.java"],
+    "ifFailedSkipRest": true
+}
