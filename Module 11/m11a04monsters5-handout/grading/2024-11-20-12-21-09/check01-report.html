@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Report for &ldquo;Video game monsters, part 5 - Test program Test01.java&rdquo;</title>
+    <style>
+      div#compilationArgs, div#compilationOutput, div#input, div#args, div#stderr {
+        background: lightgray;
+        font-family: "Lucida Console", "Courier New", monospace;
+        line-height: 70%;
+        white-space: pre;
+      }
+      div#errors {
+        background: lightcoral;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div#errors h2 {
+        margin-top: -0.5em;
+      }
+      div#args span.arg {
+        background-color: lightgray;
+      }
+      table#output, table#stderr {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      div#compilationOutput .noCompilationOutput:after, div#input .noinput:after, div#args .noargs:after, div#errors .noerrors:after, div#stderr .noerrors:after {
+        content: "(None)";
+        color: gray;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      table#output tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      table#stderr td {
+        background: lightgray;
+      }
+      table#stderr tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      div.hasStdErr {
+        background: yellow;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div.hasStdErr h2 {
+        margin-top: -0.5em;
+      }
+      th.lineno { color: lightgray; font-weight: normal; font-size: smaller;}
+      td.orig { background: lightgray; }
+      td.different { background: lightcoral; }
+      td.missing { background: lightcoral; }
+      td.missing:after {
+        content: "(Missing line in the program output)";
+        color: darkred;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      td.empty { background: none; }
+      td.equal { background: lightgreen; }
+      span.expected { background-color: gray; }
+      span.produced { background-color: red; }
+    </style>
+  </head>
+  <body>
+    <h1>Report for &ldquo;Video game monsters, part 5 - Test program Test01.java&rdquo;</h1>
+    <p>
+      <em>2024-11-20 12:21:12</em>
+    </p>
+
+    Overall result:
+    <strong style="background-color: lightcoral; padding: 0.25em;">FAILED</strong>
+
+    <h2>Arguments passed to javac for compiling</h2>
+    <div id="compilationArgs">
+      <span class="arg">Test01.java</span>
+    </div>
+
+    <h2>Compiler output (warnings and errors)</h2>
+    <div id="compilationOutput">
+      <span class="noCompilationOutput"></span>
+    </div>
+
+    <h2>Arguments passed to Java for running the program (main class name and command-line arguments)</h2>
+    <div id="args">
+      <span class="arg">Test01</span>
+    </div>
+
+    <h2>Program input</h2>
+    <div id="input">
+      <span class="noinput"></span>
+    </div>
+
+    <h2>Program output</h2>
+    <table id="output">
+      <caption>Expected output vs. actual program output</caption>
+      <thead>
+        <tr>
+          <td></td>
+          <th>Expected output</th>
+          <td></td>
+          <th>Program output</th>
+        </tr>
+      </thead>
+      <tbody>
+              <tr>
+                <th class="lineno">1</th><td class="orig">Wumpuses:</td>
+                <th class="lineno">1</th><td class="equal">Wumpuses:</td>
+              </tr>
+              <tr>
+                <th class="lineno">2</th><td class="orig">    - Slagstep (wumpus; health: <span class="expected">2</span>0)</td>
+                <th class="lineno">2</th><td class="different">    - Slagstep (wumpus; health: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">3</th><td class="orig">    - Horrorface (wumpus; health: <span class="expected">2</span>0)</td>
+                <th class="lineno">3</th><td class="different">    - Horrorface (wumpus; health: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">4</th><td class="orig">    - Vileling (wumpus; health: <span class="expected">2</span>0)</td>
+                <th class="lineno">4</th><td class="different">    - Vileling (wumpus; health: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">5</th><td class="orig">Hitting each wumpus...</td>
+                <th class="lineno">5</th><td class="equal">Hitting each wumpus...</td>
+              </tr>
+              <tr>
+                <th class="lineno">6</th><td class="orig">Wumpuses now:</td>
+                <th class="lineno">6</th><td class="equal">Wumpuses now:</td>
+              </tr>
+              <tr>
+                <th class="lineno">7</th><td class="orig">    - Slagstep (wumpus; health: <span class="expected">15</span>)</td>
+                <th class="lineno">7</th><td class="different">    - Slagstep (wumpus; health: <span class="produced">0</span>)</td>
+              </tr>
+              <tr>
+                <th class="lineno">8</th><td class="orig">    - Horrorface (wumpus; health: <span class="expected">13</span>)</td>
+                <th class="lineno">8</th><td class="different">    - Horrorface (wumpus; health: <span class="produced">0</span>)</td>
+              </tr>
+              <tr>
+                <th class="lineno">9</th><td class="orig">    - Vileling (wumpus; health: <span class="expected">4</span>)</td>
+                <th class="lineno">9</th><td class="different">    - Vileling (wumpus; health: <span class="produced">0</span>)</td>
+              </tr>
+              <tr>
+                <th class="lineno">10</th><td class="orig">Healing each wumpus...</td>
+                <th class="lineno">10</th><td class="equal">Healing each wumpus...</td>
+              </tr>
+              <tr>
+                <th class="lineno">11</th><td class="orig">Wumpuses now:</td>
+                <th class="lineno">11</th><td class="equal">Wumpuses now:</td>
+              </tr>
+              <tr>
+                <th class="lineno">12</th><td class="orig">    - Slagstep (wumpus; health: <span class="expected">16</span>)</td>
+                <th class="lineno">12</th><td class="different">    - Slagstep (wumpus; health: <span class="produced">0</span>)</td>
+              </tr>
+              <tr>
+                <th class="lineno">13</th><td class="orig">    - Horrorface (wumpus; health: <span class="expected">2</span>0)</td>
+                <th class="lineno">13</th><td class="different">    - Horrorface (wumpus; health: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">14</th><td class="orig">    - Vileling (wumpus; health: <span class="expected">7</span>)</td>
+                <th class="lineno">14</th><td class="different">    - Vileling (wumpus; health: <span class="produced">0</span>)</td>
+              </tr>
+              <tr>
+                <th class="lineno">15</th><td class="orig">Burning each wumpus...</td>
+                <th class="lineno">15</th><td class="equal">Burning each wumpus...</td>
+              </tr>
+              <tr>
+                <th class="lineno">16</th><td class="orig">Wumpuses now:</td>
+                <th class="lineno">16</th><td class="equal">Wumpuses now:</td>
+              </tr>
+              <tr>
+                <th class="lineno">17</th><td class="orig">    - Slagstep (wumpus; health: 0) - DEAD!</td>
+                <th class="lineno">17</th><td class="equal">    - Slagstep (wumpus; health: 0) - DEAD!</td>
+              </tr>
+              <tr>
+                <th class="lineno">18</th><td class="orig">    - Horrorface (wumpus; health: <span class="expected">17</span>)</td>
+                <th class="lineno">18</th><td class="different">    - Horrorface (wumpus; health: <span class="produced">0</span>)<span class="produced"> - DEAD!</span></td>
+              </tr>
+              <tr>
+                <th class="lineno">19</th><td class="orig">    - Vileling (wumpus; health: <span class="expected">4</span>)</td>
+                <th class="lineno">19</th><td class="different">    - Vileling (wumpus; health: <span class="produced">0</span>)<span class="produced"> - DEAD!</span></td>
+              </tr>
+
+      </tbody>
+    </table>
+
+    <div class="">
+      <h2>Warnings and error messages produced during the program execution</h2>
+
+      <div id="stderr">
+        <span class="noerrors"></span>
+      </div>
+    </div>
+  </body>
+</html>
