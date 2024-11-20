@@ -1,0 +1,6 @@
+Is point 1 equal to point 2? true
+Is point 2 equal to point 1? true
+Is point 1 equal to point 3? false
+Is point 3 equal to point 1? false
+Is point 2 equal to point 3? false
+Is point 3 equal to point 2? false

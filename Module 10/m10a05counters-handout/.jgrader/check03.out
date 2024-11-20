@@ -1,0 +1,10 @@
+Value of counter1: 0
+Value of counter2: 42
+
+Changing counters...
+Value of counter1: 84
+Value of counter2: 21
+
+Incrementing counters...
+Value of counter1: 85
+Value of counter2: 22

@@ -1,0 +1,15 @@
+// Do not modify this file!
+
+class Test02 {
+    public static void main(String[] args) {
+        var counter1 = new Counter(1);
+        var counter2 = new Counter(3);
+
+        System.out.println("Value of counter1: " + counter1.getValue());
+        System.out.println("Value of counter2: " + counter2.getValue());
+
+        System.out.println(System.lineSeparator() + "Changing counters...");
+        counter1.setValue(counter2.getValue() * 2);
+        counter2.setValue(counter2.getValue() / 3);
+    }
+}

@@ -1,0 +1,54 @@
+Maze:
++----+
+| # #|
+| ###|
+|# ##|
+|    |
+|  X#|
+|   #|
++----+
+
+Trying to move the player up... OK.
+The maze is now:
++----+
+| # #|
+| ###|
+|# ##|
+|  X |
+|   #|
+|   #|
++----+
+
+Trying to move the player left... OK.
+The maze is now:
++----+
+| # #|
+| ###|
+|# ##|
+| X  |
+|   #|
+|   #|
++----+
+
+Trying to move the player down... OK.
+The maze is now:
++----+
+| # #|
+| ###|
+|# ##|
+|    |
+| X #|
+|   #|
++----+
+
+Trying to move the player right... OK.
+The maze is now:
++----+
+| # #|
+| ###|
+|# ##|
+|    |
+|  X#|
+|   #|
++----+
+

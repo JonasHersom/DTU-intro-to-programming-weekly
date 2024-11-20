@@ -45,27 +45,24 @@ class Cinema {
         return vacancies;
     }
     public void book(int row, int column) {
-        if (row < 0 || row >= this.seatsOnRows.length) return;
-        if (column < 0 || column >= this.seatsOnRows[row]) return;
+        if (row < 0 || row >= this.seatsOnRows.length || column < 0 || column >= this.seatsOnRows[row]) return;
 
         this.bookedSeats[row][column] = true;
     }
     public void release(int row, int column) {
-        if (row < 0 || row >= this.seatsOnRows.length) return;
-        if (column < 0 || column >= this.seatsOnRows[row]) return;
+        if (row < 0 || row >= this.seatsOnRows.length || column < 0 || column >= this.seatsOnRows[row]) return;
 
         this.bookedSeats[row][column] = false;
     }
     public String seatMap() {
         String map = "";
-        for (int i = 0; i < seatsOnRows.length; i++) {
-            for (int j = 0; j < seatsOnRows[i]; j++) {
-                if (bookedSeats[i][j] == true) map += "X";
+        for (int i = 0; i < this.seatsOnRows.length; i++) {
+            for (int j = 0; j < this.seatsOnRows[i]; j++) {
+                if (this.bookedSeats[i][j] == true) map += "X";
                 else map += ".";
             }
             map += System.lineSeparator();
         }
-
         return map;
     }
 

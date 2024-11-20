@@ -1,0 +1,5 @@
+{
+    "name": "Compilation of Counter.java",
+    "compileArgs": ["Counter.java"],
+    "ifFailedSkipRest": true
+}

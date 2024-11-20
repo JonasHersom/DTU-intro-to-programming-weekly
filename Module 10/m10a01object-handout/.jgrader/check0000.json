@@ -1,0 +1,5 @@
+{
+    "name": "Compilation of Point3D.java",
+    "compileArgs": ["Point3D.java"],
+    "ifFailedSkipRest": true
+}

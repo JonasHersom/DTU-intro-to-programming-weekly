@@ -1,0 +1,5 @@
+{
+    "name": "Test program Test99.java (structure of the class Date)",
+    "compileArgs": ["Test99.java"],
+    "runArgs": ["Test99"]
+}

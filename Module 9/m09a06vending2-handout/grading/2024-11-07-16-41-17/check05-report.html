@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Report for &ldquo;Vending machines, version 2 - Test program Test05.java&rdquo;</title>
+    <style>
+      div#compilationArgs, div#compilationOutput, div#input, div#args, div#stderr {
+        background: lightgray;
+        font-family: "Lucida Console", "Courier New", monospace;
+        line-height: 70%;
+        white-space: pre;
+      }
+      div#errors {
+        background: lightcoral;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div#errors h2 {
+        margin-top: -0.5em;
+      }
+      div#args span.arg {
+        background-color: lightgray;
+      }
+      table#output, table#stderr {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      div#compilationOutput .noCompilationOutput:after, div#input .noinput:after, div#args .noargs:after, div#errors .noerrors:after, div#stderr .noerrors:after {
+        content: "(None)";
+        color: gray;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      table#output tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      table#stderr td {
+        background: lightgray;
+      }
+      table#stderr tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      div.hasStdErr {
+        background: yellow;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div.hasStdErr h2 {
+        margin-top: -0.5em;
+      }
+      th.lineno { color: lightgray; font-weight: normal; font-size: smaller;}
+      td.orig { background: lightgray; }
+      td.different { background: lightcoral; }
+      td.missing { background: lightcoral; }
+      td.missing:after {
+        content: "(Missing line in the program output)";
+        color: darkred;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      td.empty { background: none; }
+      td.equal { background: lightgreen; }
+      span.expected { background-color: gray; }
+      span.produced { background-color: red; }
+    </style>
+  </head>
+  <body>
+    <h1>Report for &ldquo;Vending machines, version 2 - Test program Test05.java&rdquo;</h1>
+    <p>
+      <em>2024-11-07 16:41:20</em>
+    </p>
+
+    Overall result:
+    <strong style="background-color: lightgreen; padding: 0.25em;">PASSED</strong>
+    <h2>Arguments passed to javac for compiling</h2>
+    <div id="compilationArgs">
+      <span class="arg">Test05.java</span>
+    </div>
+
+    <h2>Compiler output (warnings and errors)</h2>
+    <div id="compilationOutput">
+      <span class="noCompilationOutput"></span>
+    </div>
+
+    <h2>Arguments passed to Java for running the program (main class name and command-line arguments)</h2>
+    <div id="args">
+      <span class="arg">Test05</span>
+    </div>
+
+    <h2>Program input</h2>
+    <div id="input">
+      <span class="noinput"></span>
+    </div>
+
+    <h2>Program output</h2>
+    <table id="output">
+      <caption>Expected output vs. actual program output</caption>
+      <thead>
+        <tr>
+          <td></td>
+          <th>Expected output</th>
+          <td></td>
+          <th>Program output</th>
+        </tr>
+      </thead>
+      <tbody>
+              <tr>
+                <th class="lineno">1</th><td class="orig">Trying to get 5 coffees from all machines...</td>
+                <th class="lineno">1</th><td class="equal">Trying to get 5 coffees from all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">2</th><td class="orig">  - Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0)</td>
+                <th class="lineno">2</th><td class="equal">  - Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">3</th><td class="orig">    Got 0 coffees</td>
+                <th class="lineno">3</th><td class="equal">    Got 0 coffees</td>
+              </tr>
+              <tr>
+                <th class="lineno">4</th><td class="orig">    --&gt; Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0)</td>
+                <th class="lineno">4</th><td class="equal">    --&gt; Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">5</th><td class="orig">  - Machine @ Lyngby Station (coffee: 10; chocolate: 9; cash: 0)</td>
+                <th class="lineno">5</th><td class="equal">  - Machine @ Lyngby Station (coffee: 10; chocolate: 9; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">6</th><td class="orig">    Got 0 coffees</td>
+                <th class="lineno">6</th><td class="equal">    Got 0 coffees</td>
+              </tr>
+              <tr>
+                <th class="lineno">7</th><td class="orig">    --&gt; Machine @ Lyngby Station (coffee: 10; chocolate: 9; cash: 0)</td>
+                <th class="lineno">7</th><td class="equal">    --&gt; Machine @ Lyngby Station (coffee: 10; chocolate: 9; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">8</th><td class="orig">  - Machine @ CPH Airport Gate A10 (coffee: 25; chocolate: 12; cash: 0)</td>
+                <th class="lineno">8</th><td class="equal">  - Machine @ CPH Airport Gate A10 (coffee: 25; chocolate: 12; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">9</th><td class="orig">    Got 0 coffees</td>
+                <th class="lineno">9</th><td class="equal">    Got 0 coffees</td>
+              </tr>
+              <tr>
+                <th class="lineno">10</th><td class="orig">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 25; chocolate: 12; cash: 0)</td>
+                <th class="lineno">10</th><td class="equal">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 25; chocolate: 12; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">11</th><td class="orig"></td>
+                <th class="lineno">11</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">12</th><td class="orig">Trying to get 6 chocolates from all machines...</td>
+                <th class="lineno">12</th><td class="equal">Trying to get 6 chocolates from all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">13</th><td class="orig">  - Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0)</td>
+                <th class="lineno">13</th><td class="equal">  - Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">14</th><td class="orig">    Got 0 chocolates</td>
+                <th class="lineno">14</th><td class="equal">    Got 0 chocolates</td>
+              </tr>
+              <tr>
+                <th class="lineno">15</th><td class="orig">    --&gt; Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0)</td>
+                <th class="lineno">15</th><td class="equal">    --&gt; Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">16</th><td class="orig">  - Machine @ Lyngby Station (coffee: 10; chocolate: 9; cash: 0)</td>
+                <th class="lineno">16</th><td class="equal">  - Machine @ Lyngby Station (coffee: 10; chocolate: 9; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">17</th><td class="orig">    Got 0 chocolates</td>
+                <th class="lineno">17</th><td class="equal">    Got 0 chocolates</td>
+              </tr>
+              <tr>
+                <th class="lineno">18</th><td class="orig">    --&gt; Machine @ Lyngby Station (coffee: 10; chocolate: 9; cash: 0)</td>
+                <th class="lineno">18</th><td class="equal">    --&gt; Machine @ Lyngby Station (coffee: 10; chocolate: 9; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">19</th><td class="orig">  - Machine @ CPH Airport Gate A10 (coffee: 25; chocolate: 12; cash: 0)</td>
+                <th class="lineno">19</th><td class="equal">  - Machine @ CPH Airport Gate A10 (coffee: 25; chocolate: 12; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">20</th><td class="orig">    Got 0 chocolates</td>
+                <th class="lineno">20</th><td class="equal">    Got 0 chocolates</td>
+              </tr>
+              <tr>
+                <th class="lineno">21</th><td class="orig">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 25; chocolate: 12; cash: 0)</td>
+                <th class="lineno">21</th><td class="equal">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 25; chocolate: 12; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">22</th><td class="orig"></td>
+                <th class="lineno">22</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">23</th><td class="orig">Trying to get 7 Wiener melanges from all machines...</td>
+                <th class="lineno">23</th><td class="equal">Trying to get 7 Wiener melanges from all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">24</th><td class="orig">  - Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0)</td>
+                <th class="lineno">24</th><td class="equal">  - Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">25</th><td class="orig">    Got 0 Wiener melanges</td>
+                <th class="lineno">25</th><td class="equal">    Got 0 Wiener melanges</td>
+              </tr>
+              <tr>
+                <th class="lineno">26</th><td class="orig">    --&gt; Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0)</td>
+                <th class="lineno">26</th><td class="equal">    --&gt; Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">27</th><td class="orig">  - Machine @ Lyngby Station (coffee: 10; chocolate: 9; cash: 0)</td>
+                <th class="lineno">27</th><td class="equal">  - Machine @ Lyngby Station (coffee: 10; chocolate: 9; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">28</th><td class="orig">    Got 0 Wiener melanges</td>
+                <th class="lineno">28</th><td class="equal">    Got 0 Wiener melanges</td>
+              </tr>
+              <tr>
+                <th class="lineno">29</th><td class="orig">    --&gt; Machine @ Lyngby Station (coffee: 10; chocolate: 9; cash: 0)</td>
+                <th class="lineno">29</th><td class="equal">    --&gt; Machine @ Lyngby Station (coffee: 10; chocolate: 9; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">30</th><td class="orig">  - Machine @ CPH Airport Gate A10 (coffee: 25; chocolate: 12; cash: 0)</td>
+                <th class="lineno">30</th><td class="equal">  - Machine @ CPH Airport Gate A10 (coffee: 25; chocolate: 12; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">31</th><td class="orig">    Got 0 Wiener melanges</td>
+                <th class="lineno">31</th><td class="equal">    Got 0 Wiener melanges</td>
+              </tr>
+              <tr>
+                <th class="lineno">32</th><td class="orig">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 25; chocolate: 12; cash: 0)</td>
+                <th class="lineno">32</th><td class="equal">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 25; chocolate: 12; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">33</th><td class="orig"></td>
+                <th class="lineno">33</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">34</th><td class="orig">Putting some cash in all machines...</td>
+                <th class="lineno">34</th><td class="equal">Putting some cash in all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">35</th><td class="orig"></td>
+                <th class="lineno">35</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">36</th><td class="orig">Trying to get 5 coffees from all machines...</td>
+                <th class="lineno">36</th><td class="equal">Trying to get 5 coffees from all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">37</th><td class="orig">  - Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 90)</td>
+                <th class="lineno">37</th><td class="equal">  - Machine @ DTU building 324 (coffee: 100; chocolate: 100; cash: 90)</td>
+              </tr>
+              <tr>
+                <th class="lineno">38</th><td class="orig">    Got 5 coffees</td>
+                <th class="lineno">38</th><td class="equal">    Got 5 coffees</td>
+              </tr>
+              <tr>
+                <th class="lineno">39</th><td class="orig">    --&gt; Machine @ DTU building 324 (coffee: 95; chocolate: 100; cash: 40)</td>
+                <th class="lineno">39</th><td class="equal">    --&gt; Machine @ DTU building 324 (coffee: 95; chocolate: 100; cash: 40)</td>
+              </tr>
+              <tr>
+                <th class="lineno">40</th><td class="orig">  - Machine @ Lyngby Station (coffee: 10; chocolate: 9; cash: 210)</td>
+                <th class="lineno">40</th><td class="equal">  - Machine @ Lyngby Station (coffee: 10; chocolate: 9; cash: 210)</td>
+              </tr>
+              <tr>
+                <th class="lineno">41</th><td class="orig">    Got 5 coffees</td>
+                <th class="lineno">41</th><td class="equal">    Got 5 coffees</td>
+              </tr>
+              <tr>
+                <th class="lineno">42</th><td class="orig">    --&gt; Machine @ Lyngby Station (coffee: 5; chocolate: 9; cash: 160)</td>
+                <th class="lineno">42</th><td class="equal">    --&gt; Machine @ Lyngby Station (coffee: 5; chocolate: 9; cash: 160)</td>
+              </tr>
+              <tr>
+                <th class="lineno">43</th><td class="orig">  - Machine @ CPH Airport Gate A10 (coffee: 25; chocolate: 12; cash: 350)</td>
+                <th class="lineno">43</th><td class="equal">  - Machine @ CPH Airport Gate A10 (coffee: 25; chocolate: 12; cash: 350)</td>
+              </tr>
+              <tr>
+                <th class="lineno">44</th><td class="orig">    Got 5 coffees</td>
+                <th class="lineno">44</th><td class="equal">    Got 5 coffees</td>
+              </tr>
+              <tr>
+                <th class="lineno">45</th><td class="orig">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 20; chocolate: 12; cash: 300)</td>
+                <th class="lineno">45</th><td class="equal">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 20; chocolate: 12; cash: 300)</td>
+              </tr>
+              <tr>
+                <th class="lineno">46</th><td class="orig"></td>
+                <th class="lineno">46</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">47</th><td class="orig">Trying to get 6 chocolates from all machines...</td>
+                <th class="lineno">47</th><td class="equal">Trying to get 6 chocolates from all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">48</th><td class="orig">  - Machine @ DTU building 324 (coffee: 95; chocolate: 100; cash: 40)</td>
+                <th class="lineno">48</th><td class="equal">  - Machine @ DTU building 324 (coffee: 95; chocolate: 100; cash: 40)</td>
+              </tr>
+              <tr>
+                <th class="lineno">49</th><td class="orig">    Got 2 chocolates</td>
+                <th class="lineno">49</th><td class="equal">    Got 2 chocolates</td>
+              </tr>
+              <tr>
+                <th class="lineno">50</th><td class="orig">    --&gt; Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+                <th class="lineno">50</th><td class="equal">    --&gt; Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">51</th><td class="orig">  - Machine @ Lyngby Station (coffee: 5; chocolate: 9; cash: 160)</td>
+                <th class="lineno">51</th><td class="equal">  - Machine @ Lyngby Station (coffee: 5; chocolate: 9; cash: 160)</td>
+              </tr>
+              <tr>
+                <th class="lineno">52</th><td class="orig">    Got 6 chocolates</td>
+                <th class="lineno">52</th><td class="equal">    Got 6 chocolates</td>
+              </tr>
+              <tr>
+                <th class="lineno">53</th><td class="orig">    --&gt; Machine @ Lyngby Station (coffee: 5; chocolate: 3; cash: 40)</td>
+                <th class="lineno">53</th><td class="equal">    --&gt; Machine @ Lyngby Station (coffee: 5; chocolate: 3; cash: 40)</td>
+              </tr>
+              <tr>
+                <th class="lineno">54</th><td class="orig">  - Machine @ CPH Airport Gate A10 (coffee: 20; chocolate: 12; cash: 300)</td>
+                <th class="lineno">54</th><td class="equal">  - Machine @ CPH Airport Gate A10 (coffee: 20; chocolate: 12; cash: 300)</td>
+              </tr>
+              <tr>
+                <th class="lineno">55</th><td class="orig">    Got 6 chocolates</td>
+                <th class="lineno">55</th><td class="equal">    Got 6 chocolates</td>
+              </tr>
+              <tr>
+                <th class="lineno">56</th><td class="orig">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 20; chocolate: 6; cash: 180)</td>
+                <th class="lineno">56</th><td class="equal">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 20; chocolate: 6; cash: 180)</td>
+              </tr>
+              <tr>
+                <th class="lineno">57</th><td class="orig"></td>
+                <th class="lineno">57</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">58</th><td class="orig">Trying to get 7 Wiener melanges from all machines...</td>
+                <th class="lineno">58</th><td class="equal">Trying to get 7 Wiener melanges from all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">59</th><td class="orig">  - Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+                <th class="lineno">59</th><td class="equal">  - Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">60</th><td class="orig">    Got 0 Wiener melanges</td>
+                <th class="lineno">60</th><td class="equal">    Got 0 Wiener melanges</td>
+              </tr>
+              <tr>
+                <th class="lineno">61</th><td class="orig">    --&gt; Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+                <th class="lineno">61</th><td class="equal">    --&gt; Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">62</th><td class="orig">  - Machine @ Lyngby Station (coffee: 5; chocolate: 3; cash: 40)</td>
+                <th class="lineno">62</th><td class="equal">  - Machine @ Lyngby Station (coffee: 5; chocolate: 3; cash: 40)</td>
+              </tr>
+              <tr>
+                <th class="lineno">63</th><td class="orig">    Got 1 Wiener melanges</td>
+                <th class="lineno">63</th><td class="equal">    Got 1 Wiener melanges</td>
+              </tr>
+              <tr>
+                <th class="lineno">64</th><td class="orig">    --&gt; Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 10)</td>
+                <th class="lineno">64</th><td class="equal">    --&gt; Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 10)</td>
+              </tr>
+              <tr>
+                <th class="lineno">65</th><td class="orig">  - Machine @ CPH Airport Gate A10 (coffee: 20; chocolate: 6; cash: 180)</td>
+                <th class="lineno">65</th><td class="equal">  - Machine @ CPH Airport Gate A10 (coffee: 20; chocolate: 6; cash: 180)</td>
+              </tr>
+              <tr>
+                <th class="lineno">66</th><td class="orig">    Got 6 Wiener melanges</td>
+                <th class="lineno">66</th><td class="equal">    Got 6 Wiener melanges</td>
+              </tr>
+              <tr>
+                <th class="lineno">67</th><td class="orig">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0)</td>
+                <th class="lineno">67</th><td class="equal">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">68</th><td class="orig"></td>
+                <th class="lineno">68</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">69</th><td class="orig">Trying to get cash from all machines...</td>
+                <th class="lineno">69</th><td class="equal">Trying to get cash from all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">70</th><td class="orig">  - Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0): 0</td>
+                <th class="lineno">70</th><td class="equal">  - Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0): 0</td>
+              </tr>
+              <tr>
+                <th class="lineno">71</th><td class="orig">  - Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 10): 10</td>
+                <th class="lineno">71</th><td class="equal">  - Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 10): 10</td>
+              </tr>
+              <tr>
+                <th class="lineno">72</th><td class="orig">    --&gt; Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 0)</td>
+                <th class="lineno">72</th><td class="equal">    --&gt; Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">73</th><td class="orig">  - Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0): 0</td>
+                <th class="lineno">73</th><td class="equal">  - Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0): 0</td>
+              </tr>
+              <tr>
+                <th class="lineno">74</th><td class="orig"></td>
+                <th class="lineno">74</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">75</th><td class="orig">Trying to get 5 coffees from all machines...</td>
+                <th class="lineno">75</th><td class="equal">Trying to get 5 coffees from all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">76</th><td class="orig">  - Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+                <th class="lineno">76</th><td class="equal">  - Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">77</th><td class="orig">    Got 0 coffees</td>
+                <th class="lineno">77</th><td class="equal">    Got 0 coffees</td>
+              </tr>
+              <tr>
+                <th class="lineno">78</th><td class="orig">    --&gt; Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+                <th class="lineno">78</th><td class="equal">    --&gt; Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">79</th><td class="orig">  - Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 0)</td>
+                <th class="lineno">79</th><td class="equal">  - Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">80</th><td class="orig">    Got 0 coffees</td>
+                <th class="lineno">80</th><td class="equal">    Got 0 coffees</td>
+              </tr>
+              <tr>
+                <th class="lineno">81</th><td class="orig">    --&gt; Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 0)</td>
+                <th class="lineno">81</th><td class="equal">    --&gt; Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">82</th><td class="orig">  - Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0)</td>
+                <th class="lineno">82</th><td class="equal">  - Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">83</th><td class="orig">    Got 0 coffees</td>
+                <th class="lineno">83</th><td class="equal">    Got 0 coffees</td>
+              </tr>
+              <tr>
+                <th class="lineno">84</th><td class="orig">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0)</td>
+                <th class="lineno">84</th><td class="equal">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">85</th><td class="orig"></td>
+                <th class="lineno">85</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">86</th><td class="orig">Trying to get 6 chocolates from all machines...</td>
+                <th class="lineno">86</th><td class="equal">Trying to get 6 chocolates from all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">87</th><td class="orig">  - Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+                <th class="lineno">87</th><td class="equal">  - Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">88</th><td class="orig">    Got 0 chocolates</td>
+                <th class="lineno">88</th><td class="equal">    Got 0 chocolates</td>
+              </tr>
+              <tr>
+                <th class="lineno">89</th><td class="orig">    --&gt; Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+                <th class="lineno">89</th><td class="equal">    --&gt; Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">90</th><td class="orig">  - Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 0)</td>
+                <th class="lineno">90</th><td class="equal">  - Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">91</th><td class="orig">    Got 0 chocolates</td>
+                <th class="lineno">91</th><td class="equal">    Got 0 chocolates</td>
+              </tr>
+              <tr>
+                <th class="lineno">92</th><td class="orig">    --&gt; Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 0)</td>
+                <th class="lineno">92</th><td class="equal">    --&gt; Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">93</th><td class="orig">  - Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0)</td>
+                <th class="lineno">93</th><td class="equal">  - Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">94</th><td class="orig">    Got 0 chocolates</td>
+                <th class="lineno">94</th><td class="equal">    Got 0 chocolates</td>
+              </tr>
+              <tr>
+                <th class="lineno">95</th><td class="orig">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0)</td>
+                <th class="lineno">95</th><td class="equal">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">96</th><td class="orig"></td>
+                <th class="lineno">96</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">97</th><td class="orig">Trying to get 7 Wiener melanges from all machines...</td>
+                <th class="lineno">97</th><td class="equal">Trying to get 7 Wiener melanges from all machines...</td>
+              </tr>
+              <tr>
+                <th class="lineno">98</th><td class="orig">  - Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+                <th class="lineno">98</th><td class="equal">  - Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">99</th><td class="orig">    Got 0 Wiener melanges</td>
+                <th class="lineno">99</th><td class="equal">    Got 0 Wiener melanges</td>
+              </tr>
+              <tr>
+                <th class="lineno">100</th><td class="orig">    --&gt; Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+                <th class="lineno">100</th><td class="equal">    --&gt; Machine @ DTU building 324 (coffee: 95; chocolate: 98; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">101</th><td class="orig">  - Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 0)</td>
+                <th class="lineno">101</th><td class="equal">  - Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">102</th><td class="orig">    Got 0 Wiener melanges</td>
+                <th class="lineno">102</th><td class="equal">    Got 0 Wiener melanges</td>
+              </tr>
+              <tr>
+                <th class="lineno">103</th><td class="orig">    --&gt; Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 0)</td>
+                <th class="lineno">103</th><td class="equal">    --&gt; Machine @ Lyngby Station (coffee: 4; chocolate: 2; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">104</th><td class="orig">  - Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0)</td>
+                <th class="lineno">104</th><td class="equal">  - Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">105</th><td class="orig">    Got 0 Wiener melanges</td>
+                <th class="lineno">105</th><td class="equal">    Got 0 Wiener melanges</td>
+              </tr>
+              <tr>
+                <th class="lineno">106</th><td class="orig">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0)</td>
+                <th class="lineno">106</th><td class="equal">    --&gt; Machine @ CPH Airport Gate A10 (coffee: 14; chocolate: 0; cash: 0)</td>
+              </tr>
+              <tr>
+                <th class="lineno">107</th><td class="orig"></td>
+                <th class="lineno">107</th><td class="equal"></td>
+              </tr>
+
+      </tbody>
+    </table>
+
+    <div class="">
+      <h2>Warnings and error messages produced during the program execution</h2>
+
+      <div id="stderr">
+        <span class="noerrors"></span>
+      </div>
+    </div>
+  </body>
+</html>

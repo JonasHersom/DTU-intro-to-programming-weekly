@@ -1,0 +1,3 @@
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 5
+	at Maze.moveUp(Maze.java:18)
+	at Test06.main(Test06.java:20)

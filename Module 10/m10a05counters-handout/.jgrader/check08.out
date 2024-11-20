@@ -1,0 +1,10 @@
+Static counter value: 0
+
+Changing the counter...
+Static counter value: -33
+
+Incrementing the counter...
+Static counter value: -32
+
+Decrementing the counter...
+Static counter value: -35
