@@ -1,0 +1,5 @@
+{
+    "name": "Compilation",
+    "compileArgs": ["MinMax.java"],
+    "ifFailedSkipRest": true
+}

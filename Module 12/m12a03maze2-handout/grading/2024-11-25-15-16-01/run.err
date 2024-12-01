@@ -1,0 +1,6 @@
+Exception in thread "main" java.lang.NumberFormatException: For input string: "maze11.txt"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at Maze.load(Maze.java:79)
+	at Test11.main(Test11.java:24)

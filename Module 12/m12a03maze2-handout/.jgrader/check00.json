@@ -1,0 +1,5 @@
+{
+    "name": "Compilation of Maze.java",
+    "compileArgs": ["Maze.java"],
+    "ifFailedSkipRest": true
+}

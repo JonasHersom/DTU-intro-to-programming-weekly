@@ -1,0 +1,5 @@
+{
+    "name": "Compilation of MiniGrep.java",
+    "compileArgs": ["MiniGrep.java"],
+    "ifFailedSkipRest": true
+}

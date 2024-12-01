@@ -1,0 +1,4 @@
+# These settings override default autograde settings for the course
+general:
+  display_name: 'Mini chess' # Mandatory
+  handin_filename: 'MiniChess.java' # Mandatory

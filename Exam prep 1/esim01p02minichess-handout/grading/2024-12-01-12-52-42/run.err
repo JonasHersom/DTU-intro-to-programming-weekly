@@ -1,0 +1,4 @@
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 6
+	at MiniChess.isLegalMove(MiniChess.java:31)
+	at MiniChess.moveBishop(MiniChess.java:21)
+	at Task03Test02.main(Task03Test02.java:17)
