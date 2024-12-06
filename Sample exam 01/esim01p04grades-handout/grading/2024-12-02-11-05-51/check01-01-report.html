@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Report for &ldquo;Exam grades - Task 1 - test 1&rdquo;</title>
+    <style>
+      div#compilationArgs, div#compilationOutput, div#input, div#args, div#stderr {
+        background: lightgray;
+        font-family: "Lucida Console", "Courier New", monospace;
+        line-height: 70%;
+        white-space: pre;
+      }
+      div#errors {
+        background: lightcoral;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div#errors h2 {
+        margin-top: -0.5em;
+      }
+      div#args span.arg {
+        background-color: lightgray;
+      }
+      table#output, table#stderr {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      div#compilationOutput .noCompilationOutput:after, div#input .noinput:after, div#args .noargs:after, div#errors .noerrors:after, div#stderr .noerrors:after {
+        content: "(None)";
+        color: gray;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      table#output tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      table#stderr td {
+        background: lightgray;
+      }
+      table#stderr tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      div.hasStdErr {
+        background: yellow;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div.hasStdErr h2 {
+        margin-top: -0.5em;
+      }
+      th.lineno { color: lightgray; font-weight: normal; font-size: smaller;}
+      td.orig { background: lightgray; }
+      td.different { background: lightcoral; }
+      td.missing { background: lightcoral; }
+      td.missing:after {
+        content: "(Missing line in the program output)";
+        color: darkred;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      td.empty { background: none; }
+      td.equal { background: lightgreen; }
+      span.expected { background-color: gray; }
+      span.produced { background-color: red; }
+    </style>
+  </head>
+  <body>
+    <h1>Report for &ldquo;Exam grades - Task 1 - test 1&rdquo;</h1>
+    <p>
+      <em>2024-12-02 11:05:53</em>
+    </p>
+
+    Overall result:
+    <strong style="background-color: lightcoral; padding: 0.25em;">FAILED</strong>
+
+    <h2>Arguments passed to javac for compiling</h2>
+    <div id="compilationArgs">
+      <span class="arg">Task01Test01.java</span>
+    </div>
+
+    <h2>Compiler output (warnings and errors)</h2>
+    <div id="compilationOutput">
+      <span class="noCompilationOutput"></span>
+    </div>
+
+    <h2>Arguments passed to Java for running the program (main class name and command-line arguments)</h2>
+    <div id="args">
+      <span class="arg">Task01Test01</span>
+    </div>
+
+    <h2>Program input</h2>
+    <div id="input">
+      <span class="noinput"></span>
+    </div>
+
+    <h2>Program output</h2>
+    <table id="output">
+      <caption>Expected output vs. actual program output</caption>
+      <thead>
+        <tr>
+          <td></td>
+          <th>Expected output</th>
+          <td></td>
+          <th>Program output</th>
+        </tr>
+      </thead>
+      <tbody>
+              <tr>
+                <th class="lineno">1</th><td class="orig">Creating new ExamGrade with student id 's123456' and grade '12'...</td>
+                <th class="lineno">1</th><td class="equal">Creating new ExamGrade with student id 's123456' and grade '12'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">2</th><td class="orig">    - OK: id = 's123456', grade = '12'</td>
+                <th class="lineno">2</th><td class="equal">    - OK: id = 's123456', grade = '12'</td>
+              </tr>
+              <tr>
+                <th class="lineno">3</th><td class="orig">Creating new ExamGrade with student id 's654321' and grade '10'...</td>
+                <th class="lineno">3</th><td class="equal">Creating new ExamGrade with student id 's654321' and grade '10'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">4</th><td class="orig">    - OK: id = 's654321', grade = '10'</td>
+                <th class="lineno">4</th><td class="equal">    - OK: id = 's654321', grade = '10'</td>
+              </tr>
+              <tr>
+                <th class="lineno">5</th><td class="orig">Creating new ExamGrade with student id 's357732' and grade '7'...</td>
+                <th class="lineno">5</th><td class="equal">Creating new ExamGrade with student id 's357732' and grade '7'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">6</th><td class="orig">    - OK: id = 's357732', grade = '7'</td>
+                <th class="lineno">6</th><td class="equal">    - OK: id = 's357732', grade = '7'</td>
+              </tr>
+              <tr>
+                <th class="lineno">7</th><td class="orig">Creating new ExamGrade with student id 's368373' and grade '4'...</td>
+                <th class="lineno">7</th><td class="equal">Creating new ExamGrade with student id 's368373' and grade '4'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">8</th><td class="orig">    - OK: id = 's368373', grade = '4'</td>
+                <th class="lineno">8</th><td class="equal">    - OK: id = 's368373', grade = '4'</td>
+              </tr>
+              <tr>
+                <th class="lineno">9</th><td class="orig">Creating new ExamGrade with student id 's4683337' and grade '02'...</td>
+                <th class="lineno">9</th><td class="equal">Creating new ExamGrade with student id 's4683337' and grade '02'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">10</th><td class="orig">    - Failed! Invalid student id: 's4683337'</td>
+                <th class="lineno">10</th><td class="equal">    - Failed! Invalid student id: 's4683337'</td>
+              </tr>
+              <tr>
+                <th class="lineno">11</th><td class="orig">Creating new ExamGrade with student id 's318373' and grade '00'...</td>
+                <th class="lineno">11</th><td class="equal">Creating new ExamGrade with student id 's318373' and grade '00'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">12</th><td class="orig">    - OK: id = 's318373', grade = '00'</td>
+                <th class="lineno">12</th><td class="equal">    - OK: id = 's318373', grade = '00'</td>
+              </tr>
+              <tr>
+                <th class="lineno">13</th><td class="orig">Creating new ExamGrade with student id 's552373' and grade '-3'...</td>
+                <th class="lineno">13</th><td class="equal">Creating new ExamGrade with student id 's552373' and grade '-3'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">14</th><td class="orig">    - OK: id = 's552373', grade = '-3'</td>
+                <th class="lineno">14</th><td class="equal">    - OK: id = 's552373', grade = '-3'</td>
+              </tr>
+              <tr>
+                <th class="lineno">15</th><td class="orig">Creating new ExamGrade with student id 's16855' and grade '12'...</td>
+                <th class="lineno">15</th><td class="equal">Creating new ExamGrade with student id 's16855' and grade '12'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">16</th><td class="orig">    - Failed! Invalid student id: 's16855'</td>
+                <th class="lineno">16</th><td class="equal">    - Failed! Invalid student id: 's16855'</td>
+              </tr>
+              <tr>
+                <th class="lineno">17</th><td class="orig">Creating new ExamGrade with student id 'f343686' and grade '10'...</td>
+                <th class="lineno">17</th><td class="equal">Creating new ExamGrade with student id 'f343686' and grade '10'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">18</th><td class="orig">    - Failed! Invalid student id: 'f343686'</td>
+                <th class="lineno">18</th><td class="equal">    - Failed! Invalid student id: 'f343686'</td>
+              </tr>
+              <tr>
+                <th class="lineno">19</th><td class="orig">Creating new ExamGrade with student id '16855' and grade '12'...</td>
+                <th class="lineno">19</th><td class="equal">Creating new ExamGrade with student id '16855' and grade '12'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">20</th><td class="orig">    - Failed! Invalid student id: '16855'</td>
+                <th class="lineno">20</th><td class="equal">    - Failed! Invalid student id: '16855'</td>
+              </tr>
+              <tr>
+                <th class="lineno">21</th><td class="orig">Creating new ExamGrade with student id '' and grade '10'...</td>
+                <th class="lineno">21</th><td class="equal">Creating new ExamGrade with student id '' and grade '10'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">22</th><td class="orig"><span class="expected">    - Failed! Invalid student id: ''</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">23</th><td class="orig"><span class="expected">Creating new ExamGrade with student id 'null' and grade '-3'...</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">24</th><td class="orig"><span class="expected">    - Failed! Invalid student id: 'null'</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">25</th><td class="orig"><span class="expected">Creating new ExamGrade with student id 's16 855' and grade '12'...</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">26</th><td class="orig"><span class="expected">    - Failed! Invalid student id: 's16 855'</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">27</th><td class="orig"><span class="expected">Creating new ExamGrade with student id 's168z55' and grade '12'...</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">28</th><td class="orig"><span class="expected">    - Failed! Invalid student id: 's168z55'</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+
+      </tbody>
+    </table>
+
+    <div id="errors">
+      <h2>Program execution errors</h2>
+
+      <h3>Error description</h3>
+
+      <div id="error_reason">
+        Exited with error code 1
+      </div>
+
+      <h3>Warnings and error messages produced during the program execution</h3>
+
+      <div id="stderr">
+        Exception in thread &quot;main&quot; java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0<br>
+        	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)<br>
+        	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)<br>
+        	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)<br>
+        	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)<br>
+        	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)<br>
+        	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)<br>
+        	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)<br>
+        	at java.base/java.lang.String.checkIndex(String.java:4832)<br>
+        	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:46)<br>
+        	at java.base/java.lang.String.charAt(String.java:1555)<br>
+        	at ExamGrade.studentIdValid(ExamGrade.java:15)<br>
+        	at ExamGrade.&lt;init&gt;(ExamGrade.java:6)<br>
+        	at TestUtils.tryCreateExamGrades(TestUtils.java:12)<br>
+        	at Task01Test01.main(Task01Test01.java:20)
+      </div>
+    </div>
+  </body>
+</html>

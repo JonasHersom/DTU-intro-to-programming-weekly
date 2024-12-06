@@ -1,0 +1,6 @@
+Test08.java:16: error: cannot find symbol
+        FileUtils.save(people, filename);
+                 ^
+  symbol:   method save(Person[],String)
+  location: class FileUtils
+1 error
