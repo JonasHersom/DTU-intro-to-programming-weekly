@@ -1,5 +1,0 @@
-Coordinates of p: 1.0, 2.5
-After calling Point.move(p, ...)
-New coordinates of p: 0.0, 13.0
-After calling Point.move(p, ...)
-New coordinates of p: 2.4, 6.0

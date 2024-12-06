@@ -1,8 +1,0 @@
-Coordinates of p: 0.0, 0.0
-After calling Point.translate(p, ...)
-Coordinates of p: 0.0, 0.0
-Coordinates of p2: -1.0, 10.5
-After calling Point.translate(p2, ...)
-Coordinates of p: 0.0, 0.0
-Coordinates of p2: -1.0, 10.5
-Coordinates of p3: 4.0, 18.0

@@ -1,9 +1,0 @@
-Testing: containsNull(Company c)
-
-NullFinder.containsNull(null) returns: true
-NullFinder.containsNull(c1) returns: false
-NullFinder.containsNull(c2) returns: false
-NullFinder.containsNull(c3) returns: true
-NullFinder.containsNull(c4) returns: true
-NullFinder.containsNull(c5) returns: true
-NullFinder.containsNull(c6) returns: true

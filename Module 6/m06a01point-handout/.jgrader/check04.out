@@ -1,7 +1,0 @@
-Coordinates of p: 1.0, 1.0
-After calling Point.translate(p, ...)
-Coordinates of p: 1.0, 1.0
-Coordinates of p2: -3.0, 6.5
-After calling Point.move(p2, ...)
-Coordinates of p: 1.0, 1.0
-Coordinates of p2: 2.0, 14.0

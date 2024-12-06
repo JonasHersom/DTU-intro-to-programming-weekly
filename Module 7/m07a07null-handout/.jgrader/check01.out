@@ -1,5 +1,0 @@
-Testing: containsNull(int[] arr)
-
-NullFinder.containsNull(null) returns: true
-NullFinder.containsNull(arr1) returns: false
-NullFinder.containsNull(arr2) returns: false

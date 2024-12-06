@@ -1,0 +1,13 @@
+# Ignore test files
+*Test*.java
+
+# Exclude other common files or folders
+*.class
+*.log
+*.out
+*.tmp
+.DS_Store
+*.swp
+.idea/
+*.iml
+.vscode/
