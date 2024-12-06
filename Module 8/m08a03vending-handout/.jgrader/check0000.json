@@ -1,5 +1,0 @@
-{
-    "name": "Compilation of VendingMachine.java",
-    "compileArgs": ["VendingMachine.java"],
-    "ifFailedSkipRest": true
-}

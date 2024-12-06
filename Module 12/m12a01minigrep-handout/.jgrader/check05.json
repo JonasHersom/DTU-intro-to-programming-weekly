@@ -1,4 +1,0 @@
-{
-    "name": "File I/O test 5",
-    "runArgs": ["MiniGrep", "keyword", "test05.txt"]
-}

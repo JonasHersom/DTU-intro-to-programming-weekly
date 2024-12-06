@@ -1,5 +1,0 @@
-{
-    "name": "Compilation of Boat.java",
-    "compileArgs": ["Member.java", "Boat.java"],
-    "ifFailedSkipRest": true
-}

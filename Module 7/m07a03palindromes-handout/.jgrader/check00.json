@@ -1,5 +1,0 @@
-{
-    "name": "Compilation of Palindromes.java",
-    "compileArgs": ["Palindromes.java"],
-    "ifFailedSkipRest": true
-}

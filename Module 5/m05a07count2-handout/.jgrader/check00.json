@@ -1,5 +1,0 @@
-{
-    "name": "Compilation",
-    "compileArgs": ["Occurrences.java", "Utils.java"],
-    "ifFailedSkipRest": true
-}

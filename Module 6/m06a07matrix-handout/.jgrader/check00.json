@@ -1,5 +1,0 @@
-{
-    "name": "Compilation of Matrix.java",
-    "compileArgs": ["Matrix.java"],
-    "ifFailedSkipRest": true
-}

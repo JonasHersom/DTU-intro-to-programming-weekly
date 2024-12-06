@@ -1,5 +1,0 @@
-{
-    "name": "Compilation of Person.java",
-    "compileArgs": ["Person.java"],
-    "ifFailedSkipRest": true
-}

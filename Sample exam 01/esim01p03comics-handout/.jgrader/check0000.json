@@ -1,5 +1,0 @@
-{
-    "name": "Compilation",
-    "compileArgs": ["Comic.java"],
-    "ifFailedSkipRest": true
-}

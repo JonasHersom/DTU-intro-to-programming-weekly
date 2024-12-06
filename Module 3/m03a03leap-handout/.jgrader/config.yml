@@ -1,4 +1,0 @@
-# These settings override default autograde settings for the course
-general:
-  display_name: 'Leap year' # Mandatory
-  handin_filename: 'LeapYear.java' # Mandatory

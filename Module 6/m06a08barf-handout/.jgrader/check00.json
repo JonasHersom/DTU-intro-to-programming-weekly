@@ -1,5 +1,0 @@
-{
-    "name": "Compilation of BarfBagsCollection.java",
-    "compileArgs": ["BarfBagsCollection.java"],
-    "ifFailedSkipRest": true
-}

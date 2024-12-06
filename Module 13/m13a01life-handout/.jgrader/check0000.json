@@ -1,5 +1,0 @@
-{
-    "name": "Compilation of Life.java",
-    "compileArgs": ["Life.java"],
-    "ifFailedSkipRest": true
-}

@@ -1,4 +1,0 @@
-Exception in thread "main" java.lang.IllegalArgumentException: Invalid title: 'The Thing (2011)'
-	at Movie.titleValid(Movie.java:42)
-	at Movie.<init>(Movie.java:6)
-	at Task03Test02.main(Task03Test02.java:6)

@@ -1,6 +1,0 @@
-Test06.java:13: error: cannot find symbol
-            System.out.println(SuperTicTacToe.hasWinner(grid) ? "Yes" : "No");
-                                             ^
-  symbol:   method hasWinner(String[][])
-  location: class SuperTicTacToe
-1 error

@@ -1,2 +1,0 @@
-Exception in thread "main" java.lang.ArithmeticException: / by zero
-	at Conversion.main(Conversion.java:11)

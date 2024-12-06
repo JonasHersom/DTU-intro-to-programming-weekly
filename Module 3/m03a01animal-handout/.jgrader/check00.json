@@ -1,5 +1,0 @@
-{
-    "name": "Compilation",
-    "compileArgs": ["Animal.java"],
-    "ifFailedSkipRest": true
-}

@@ -1,5 +1,0 @@
-{
-    "name": "Compilation of Character.java",
-    "compileArgs": ["Character.java"],
-    "ifFailedSkipRest": true
-}

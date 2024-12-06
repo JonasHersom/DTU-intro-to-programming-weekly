@@ -1,5 +1,0 @@
-{
-    "name": "Compilation of Device.java",
-    "compileArgs": ["Device.java"],
-    "ifFailedSkipRest": true
-}

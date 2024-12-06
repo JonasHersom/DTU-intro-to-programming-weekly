@@ -1,5 +1,0 @@
-{
-    "name": "Compilation of Contact.java",
-    "compileArgs": ["Contact.java"],
-    "ifFailedSkipRest": true
-}

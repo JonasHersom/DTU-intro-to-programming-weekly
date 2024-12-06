@@ -1,5 +1,0 @@
-{
-    "name": "Compilation of Cinema.java",
-    "compileArgs": ["Cinema.java"],
-    "ifFailedSkipRest": true
-}

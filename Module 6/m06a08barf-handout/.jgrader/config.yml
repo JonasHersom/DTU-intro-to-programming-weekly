@@ -1,4 +1,0 @@
-# These settings override default autograde settings for the course
-general:
-  display_name: 'Barf bags collection' # Mandatory
-  handin_filename: 'BarfBagsCollection.java' # Mandatory

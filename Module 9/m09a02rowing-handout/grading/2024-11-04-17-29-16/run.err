@@ -1,4 +1,0 @@
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Member.equals(Member)" because "<parameter1>[<local3>]" is null
-	at BoatUtils.assignMember(BoatUtils.java:22)
-	at BoatTestUtils.testBoat(BoatTestUtils.java:14)
-	at Test07.main(Test07.java:11)

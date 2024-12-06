@@ -1,3 +1,0 @@
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at ArrayUtils.format(ArrayUtils.java:15)
-	at Test04.main(Test04.java:8)

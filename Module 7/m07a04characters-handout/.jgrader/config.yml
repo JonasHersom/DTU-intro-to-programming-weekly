@@ -1,4 +1,0 @@
-# These settings override default autograde settings for the course
-general:
-  display_name: 'Video game characters' # Mandatory
-  handin_filename: 'Character.java' # Mandatory

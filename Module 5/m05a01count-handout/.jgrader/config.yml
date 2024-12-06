@@ -1,4 +1,0 @@
-# These settings override default autograde settings for the course
-general:
-  display_name: 'Count the occurrences' # Mandatory
-  handin_filename: 'Utils.java' # Mandatory

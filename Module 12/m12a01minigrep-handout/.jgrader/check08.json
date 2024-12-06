@@ -1,4 +1,0 @@
-{
-    "name": "File I/O test 8",
-    "runArgs": ["MiniGrep", "make", "hamlet.txt"]
-}

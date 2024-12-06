@@ -1,4 +1,0 @@
-Animal.java:23: error: 'else' without 'if'
-        } else System.out.println("Invalid answer!");
-          ^
-1 error

@@ -1,5 +1,0 @@
-{
-    "name": "Compilation of Point.java",
-    "compileArgs": ["Point.java"],
-    "ifFailedSkipRest": true
-}

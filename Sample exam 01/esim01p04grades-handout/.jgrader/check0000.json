@@ -1,5 +1,0 @@
-{
-    "name": "Compilation",
-    "compileArgs": ["ExamGrade.java"],
-    "ifFailedSkipRest": true
-}

@@ -1,5 +1,0 @@
-{
-    "name": "Compilation",
-    "compileArgs": ["MonthDays.java", "Utils.java"],
-    "ifFailedSkipRest": true
-}

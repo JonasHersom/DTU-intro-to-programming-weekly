@@ -1,5 +1,0 @@
-{
-    "name": "Compilation of Expression.java",
-    "compileArgs": ["Expression.java"],
-    "ifFailedSkipRest": true
-}

@@ -1,4 +1,0 @@
-# These settings override default autograde settings for the course
-general:
-  display_name: 'Guess the animal' # Mandatory
-  handin_filename: 'Animal.java' # Mandatory

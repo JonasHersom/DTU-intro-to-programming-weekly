@@ -1,5 +1,0 @@
-{
-    "name": "Compilation of TestUtils.java and ClassTestUtils.java",
-    "compileArgs": ["TestUtils.java", "ClassTestUtils.java"],
-    "ifFailedSkipRest": true
-}
