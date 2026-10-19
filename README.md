@@ -1,0 +1,1 @@
+My solutions for all the weekly exercises and sample exams from when I took the course Introductory programming in 2024. The exercises have since been updated. Everything was written as I was just learning Java programming so the quality of much of the code is quite poor, but was enough for a 100% grade in the course. 
